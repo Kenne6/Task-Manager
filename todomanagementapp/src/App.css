@@ -1,0 +1,137 @@
+.footer{
+  position:  absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.1rem;
+  background-color: bisque;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.username-input{
+  position: relative;
+  margin: 15px 50px 15px;
+  width: 100%;
+  max-width: 280px;
+  line-height: 3;
+}
+
+.password-input{
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  line-height: 6;
+}
+
+.inputFields{
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 15px 10px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid #C8CCD4;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all .15s ease;
+}
+
+.inputFields:hover{
+  background: rgb(221, 225, 228);
+}
+
+.inputFields:not(:placeholder-shown) + span{
+  color: #5A667F;
+  transform: translateY(-24px) scale(.85);
+}
+
+.inputFields:focus{
+  background: none;
+  outline: none;
+}
+
+.inputFields:focus+span{
+  color: rgb(62, 1, 119);
+  transform: translateY(-24px) scale(.85);
+}
+
+.inputFields:focus+span+.border-username{
+  transform: scaleX(1);
+}
+
+.inputFields:focus+span+.border-password{
+  transform: scaleX(1);
+}
+
+.label-username{
+  position: absolute;
+  top: 3px;
+  left: 0;
+  font-size: 16px;
+  color: #9098A9;
+  font-weight: 500;
+  transform-origin: 0 0;
+  transition: all .2s ease;
+}
+
+.label-password{
+  position: absolute;
+  top: 3px;
+  left: 0;
+  font-size: 16px;
+  color: #9098A9;
+  font-weight: 500;
+  transform-origin: 0 0;
+  transition: all .2s ease;
+}
+
+.border-username{
+  position: absolute;
+  bottom: 0.3px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color:  rgb(76, 99, 49);
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: all .3s ease;
+}
+
+.border-password{
+  position: absolute;
+  bottom: 23.2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color:  rgb(76, 99, 49);
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: all .3s ease;
+}
+
+.btn{
+  margin: 1em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

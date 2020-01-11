@@ -1,0 +1,26 @@
+.counter{
+    text-align: center;
+}
+.counterButton{
+    
+    text-align: center;
+}
+.counter-increButton{
+    background-color: bisque;
+    color: black;
+    padding: 15px 30px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.counter-decreButton{
+    background-color: bisque;
+    color: black;
+    padding: 15px 30px;
+    font-size: 16px;
+    width: 100px;
+}
+.counter-incre{
+    font-size: 20px;
+    padding: 15px 30px;
+}
